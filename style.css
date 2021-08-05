@@ -1,6 +1,6 @@
 body {
   font-family: "Roboto", sans-serif;
-  width: 100vmax;
+  width: 100%;
   box-sizing: border-box;
   font-family: "Roboto", sans-serif;
 }
@@ -37,7 +37,7 @@ nav {
 nav h1 {
   padding-top: 1%;
   padding-left: 3%;
-  margin-right: 65%;
+  margin-right: 55%;
 }
 .navic {
   font-size: 20px;
@@ -131,6 +131,61 @@ img {
 .plist:hover {
   transform: scale(1.1);
 }
+
+/* Mobile */
+@media screen and (max-width: 480px) {
+  body {
+    width: 480px;
+    box-sizing: border-box;
+  }
+  .contact {
+    font-size: 15px;
+  }
+  .fa {
+    padding: 20px;
+    font-size: 26px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+  }
+  nav h1 {
+    padding-top: 0%;
+    padding-left: 3%;
+    margin-right: 2%;
+  }
+  .navic {
+    margin-top: 4px;
+    padding-top: auto;
+    font-size: 18px;
+  }
+  .mainthree {
+    justify-content: center;
+    text-align: center;
+    font-size: 18px;
+  }
+  .mainthree h2 {
+    font-size: 32px;
+    font-weight: bolder;
+  }
+  .portlist {
+    list-style: none;
+    display: contents;
+    margin-left: 5%;
+  }
+  .portlist li {
+    padding-left: 10%;
+    padding-bottom: auto;
+    transition: 0s;
+  }
+  .plist:hover {
+    transform: scale(1);
+  }
+  img {
+    width: 28vw;
+  }
+}
+
 /*
 .portarc {
   display: flex;
